@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Cheat Sheet!</title>
+        <link type="text/css" href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="title">CSS Cheat Sheet!</h1>
+        
+            
+            <h2><u>Parts of CSS</u></h2>
+            <p>All CSS is made using 3 basic parts. Selectors, declarations, and curly brackets.
+               <br> <img src="https://mdn.mozillademos.org/files/9461/css-declaration-small.png" alt="CSS parts" style="width:300px; height=300px; margin-top: 10px;">
+            </p>
+        </div>
+        <div class="info">
+            <h3><u>Selectors</u></h3> 
+            <p>Selectors choose what elements you want stylized. They can be elements (p, h1, body),
+                classes, id's, universal selectors, and child or descendant selectors. Classes are added
+                to opening tags &lt;p class="example"&gt; and mean that any element with them will be selected.
+                Id's are similar but they only apply to one element. &lt;p id="newexample"&gt;. In this case 
+                only the &lt;p&gt;; tag would be selected, other elements with the id would be ignored. Chid and descendant selectors are 
+                simillar. Child selectors (div > p) will only select the element that is nested inside the first element.
+                While descendant selectors (div p) will select any of the element inside the first element no matter how
+                far nested it is. Multiple selectors can be used with commas (p, h1, h2). Element selectors don't use brackets.
+            </p>
+        </div>
+        <div class="info">
+            <h3><u>Declarations</u></h3>
+            <p>Declarations are the part of CSS that say what will change for the selectors. All declarations
+                must be put inside of two {} curly brackets. The declaration has the property (background-color)
+                followed by a colon (:). The value follows after that (blue). After that the declaration is 
+                closed with a semi colon (;). You can have as many declarations in the brackets as you
+                want as long as each is ended with a semi colon.
+            </p>
+        </div>
+        
+            <h2><u>Ways to use CSS</u></h2>
+            <p>There are 3 ways to use CSS. External style sheets, internal style sheets, and
+                inline style sheets.
+            </p>
+        <div class="info"> 
+            <h3><u>External style sheets</u></h3>
+            <p>External style sheets are seperate files that are linked to the document to be styled.
+                The link tag must be used inside the &lt;head&gt; tag to link. It typically looks like this 
+                &lt;link rel="stylesheet" href="styles.css"&gt;, rel defines the relationship of the two linked documents
+                "stylesheet" and href is the link to the file itself "styles.css".
+            </p>
+        </div>
+        <div class="info">
+            <h3><u>Internal style sheets</u></h3>
+            <p>Internal style sheets are those inside the document being styled itself. This can be done
+                using the </u> tag inside of the &lt;head&gt; tag.
+            </p>
+        </div>
+        <div class="info"> 
+            <h3><u>Inline style sheets</u></h3>
+            <p>Inline style sheets are those that are inside the elements themselves. For example,
+                &lt;p style="color:blue"&gt; They are made using the style attribute in the opening tag.
+        </div>
+        <div class="info">
+            <h2><u>CSS Layout</u></h2>
+            <img src="https://www.kasandbox.org/programming-images/misc/boxmodel.png" alt="CSS Layout">
+            <p>There are 4 main segments of an element in CSS.<br>
+            Content - The actual text or image being displayed.<br>
+            Padding - The empty space around the content.<br>
+            Border - An invisible (or visible) border in between the padding and the margin <br>
+            Margin - The empty space around and outside of the border<br>
+            </p>
+        </div>
+        <a href="#" style="font-size:24px">To Top</a>
+    </body>
+</html>
