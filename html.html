@@ -8,7 +8,12 @@
         <div>
             <h1 class="title">HTML Cheatsheet!</h1>
          </div>
-         
+         <div>
+             <h2 style="margin-left:10px;"><u>Basic HTML Layout</u></h2>
+         </div>
+         <div>
+         <img src="https://henryegloff.com/media/how-to-code-a-basic-webpage-using-html-and-css-7.jpg" alt="HTML Code Layout" style="height:206px; width:300px;">
+          </div>
             <div class="info">
                 <h2 id="Important"><u>The most important parts of an HTML page</u></h2>
                 <p>The most important parts of a webpage are &lt;!Doctype HTML&gt; and &lt;html&gt;. 
@@ -42,10 +47,17 @@
         </div>
         <div class="info">
             <h2 id="Links"><u>Links</u></h2>
-            <p>There are several types of links, all using &lt;a href=""&gt; tags. The most common links are to external sites using either <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">words</a> or images.<a href ="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML#:~:text=To%20use%20image%20as%20a,add%20the%20height%20and%20width." target="_blank"><img src ="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt ="HTML5 logo" style ="height:25px; width:25px;"></a>
-               Other types of &lt;a href=""&gt; tags are ones that link to other locations on the same site or locations on the same page. To link to another page on the same site, input the pages filename "example.html" into the href quotations.
-               To link to a location on the same page, the element you want to link to must have an id="something" in it's opening tag. Then #something must be put in the a href quotations. You can open a new tab by adding 
-               target="_blank" in the opening &lt;a href=""&gt; tag.
+            <p>There are three types of links, <b>Absolute links</b>, <b>Relative links</b>, and <b>ID links</b>. They all use
+               &lt;a&gt; tags. Absolute links link to url's "https://www.google.com/", Relative links link
+               to files such as when making a multi page site "example.html", and ID links link to the element
+               with the specified attribute when preceded with a #. For example #middle will link to the tag with id="middle". ID links
+               are useful for navigation on the same webpage. All 3 of the links have their destination inside the
+               &lt;a&gt; tag's href attribute. In between the two &lt;a&gt; tags is the clickable content. This can be a <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">word</a>
+               or image.<a href ="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML#:~:text=To%20use%20image%20as%20a,add%20the%20height%20and%20width." target="_blank"><img src ="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt ="HTML5 logo" style ="height:25px; width:25px; vertical-align: middle;"></a>
+               The attribute target="_blank" can be added to opne the destination in a new tab. Using # in the href attribute
+               will automatically take you to the top of the screen without having to assign an id to an element.
+               Link example &lt;a href="https://www.w3schools.com/" target="_blank"&gt; Click here!&lt;/a&gt;   
+                
                
             </p>
         </div>
