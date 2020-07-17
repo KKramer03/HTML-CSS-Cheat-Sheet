@@ -16,12 +16,18 @@ body {
 }
 .redirect {
     border-style: solid;
-    border-color: darkblue;
+    border-color: black;
     padding: 10px 10px 10px 10px;
-    border-width: 5px;
+    border-width: 5px;  
+    color:white;
+    background-color:darkblue;
+    text-decoration: none;
 }
 .info {
-border-style: solid;
-border-color:black;
-padding-left: 10px;
+    border-style: solid;
+    border-color:black;
+    padding-left: 10px;
+}
+.top {
+    text-align: center;
 }
